@@ -2,10 +2,11 @@
   Version 7.1
   Version opérationnelle
   - avec MQTT
-  - avec LCD
+  - avec UC3-LCD
   - protocole 485 amélioré = messages encadrés + CS et concaténables
   - gestion des non conformités 485
   - 485: Files String remplacées par File char.
+  - MQTT: Files String remplacées par File char.
   Les émissions MQTT et RS485 s'effectuent via des tables tampons
   où les messages sont stockés provisoirement.
   C'est dans la boucle loop que l'on teste s'il y a un message à transmettre.
